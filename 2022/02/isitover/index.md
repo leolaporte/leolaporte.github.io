@@ -6,3 +6,5 @@ Today mask mandates are lifted in our county and, despite [cowardly quibbling fr
 
 But, for now, I'm willing to say Mission Accomplished. Good job everyone. Let's say a prayer for the nearly one million dead in the US, nearly six million worldwide (a chilling number) and get back to living. Save the remaining ivermectin for the horses, shall we?
 
+Oh, and get your goldurn vaccine, will ya? For me? For all of us!
+
