@@ -1,0 +1,229 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>leo.fm</title><link>https://leo.fm/</link><description>Leo Laporte's Secret Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Wed, 16 Feb 2022 08:51:59 -0800</lastBuildDate><atom:link href="https://leo.fm/index.xml" rel="self" type="application/rss+xml"/><item><title>Mission Accomplished</title><link>https://leo.fm/2022/02/isitover/</link><pubDate>Wed, 16 Feb 2022 08:51:59 -0800</pubDate><author>Author</author><guid>https://leo.fm/2022/02/isitover/</guid><description><![CDATA[<p>I created this site in the midst of a pandemic. Now two years later, it&rsquo;s over. Right?</p>
+<p>Today mask mandates are lifted in our county and, despite <a href="https://www.nbcnews.com/health/health-news/mask-mandates-can-people-stop-wearing-masks-covid-rcna14587" target="_blank" rel="noopener noreffer">cowardly quibbling from the CDC</a>, most of the US. It seems the pandemic ends with a whimper, not a bang. Sunday&rsquo;s mostly-maskless Superbowl seemed to be the party we&rsquo;ve all been waiting for. And, yet, I&rsquo;m not exactly ready to celebrate. Personally, I&rsquo;m planning to tiptoe back, mask at the ready. I&rsquo;d love to make a pyre in the backyard to burn them all, but what if there&rsquo;s a new virulent variant? We still have Π Ρ Σ Τ Υ Φ Χ Ψ and Ω if we need them.</p>
+<p>But, for now, I&rsquo;m willing to say Mission Accomplished. Good job everyone. Let&rsquo;s say a prayer for the nearly one million dead in the US, nearly six million worldwide (a chilling number) and get back to living. Save the remaining ivermectin for the horses, shall we?</p>]]></description></item><item><title>Like Father, Like Son</title><link>https://leo.fm/2022/02/likefatherlikeson/</link><pubDate>Mon, 07 Feb 2022 19:29:30 -0800</pubDate><author>Author</author><guid>https://leo.fm/2022/02/likefatherlikeson/</guid><description><![CDATA[<p>Yesterday my son showed up at the studio. I took the opportunity to interview him!</p>
+<p>Henry (or Hank as he&rsquo;s known now) has become a <a href="https://www.tiktok.com/@salt_hank?lang=en" target="_blank" rel="noopener noreffer">big-time Tik Tok chef</a> with 1.8 million followers and nearly 30 million likes. Check out his videos and, as soon as he gets more, you can also buy his salt at <a href="https://salthank.com" target="_blank" rel="noopener noreffer">salthank.com</a>.</p>
+<p>We tried to reproduce a photo from 27-years-ago at KSFO.</p>
+<p><figure><a class="lightgallery" href="/images/fathersandsons.png" title="Fathers and Sons 27 Years Apart" data-thumbnail="/images/fathersandsons.png" data-sub-html="<h2>Fathers and Sons 27-years apart</h2><p>Fathers and Sons 27 Years Apart</p>">
+        
+    </a><figcaption class="image-caption">Fathers and Sons 27-years apart</figcaption>
+    </figure></p>
+<p>Thanks to RailEuropeGroups from Club TWiT for the Photoshop! And here&rsquo;s the clip from Sunday&rsquo;s show.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IgBcgt17iLU?start=3937" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>I guess I&rsquo;m kind of a proud father!</p>]]></description></item><item><title>A New Commenting System</title><link>https://leo.fm/2022/02/comments/</link><pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2022/02/comments/</guid><description><![CDATA[<p>I&rsquo;ve been using a third-party commenting system here, <a href="https://commento.io" target="_blank" rel="noopener noreffer">Commento</a>. But I think it&rsquo;s time to make a change.</p>
+<p>Commento is well supported by my blog engine, Hugo. It&rsquo;s relatively inexpensive with a good set of features, but&hellip;. this is such a low volume blog that I don&rsquo;t think it&rsquo;s worth the $5/month for Commento. That&rsquo;s no reflection on it - it&rsquo;s a nice system. But I like the idea of the Fediverse and I&rsquo;d like to support the Mastodon instance I run, <a href="https://twit.social" target="_blank" rel="noopener noreffer">twit.social</a>.</p>
+<p>It turns out it&rsquo;s pretty easy to use Mastodon comments with Hugo. I found a great <a href="https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/" target="_blank" rel="noopener noreffer">post by Carl Schwan</a> that included the code to insert in my theme. A simple copy and paste and - wow!- it worked! I modified the default header to include a link to twit.social. The only trick is to quickly edit the post metadata to point to the toot announcing the post. So it&rsquo;s not automatic, but it&rsquo;s not hard either. I&rsquo;m hoping that this will facilitate conversation on posts here, and, not incidentally, drive some traffic on Mastodon.</p>
+<p>Thanks, Carl. To try it out - press &ldquo;Reply&rdquo; below and it will open a Mastodon form in your browser. Your comment will appear here and on your Mastodon account. If you don&rsquo;t have a Mastodon account, join us at <a href="https://twit.social" target="_blank" rel="noopener noreffer">twit.social</a>. We&rsquo;d love to have you!</p>
+<p>UPDAYE: Well for some reason that&rsquo;s not working at all. Sigh. I&rsquo;ll keep banging on it. I love the idea of creating a conversation about posts on Mastodon, especially since I&rsquo;m already running my own instance. Ironically one of the replies to this post was a complaint about my facetious cookie banner. Without Commento.io there are no cookies, so I&rsquo;m turning that off too.</p>
+<p>Finally, I had it half working using Carl&rsquo;s code, but I did need to get some Javascript, purify.min.js, accesible. Carl uses it to sanitize HTML in comments. I stuck that dang code everywhere, but finally put it in /static/assets/js/ and lo and behold, it works! I still have a lot to learn about Hugo. Per Carl, I am using his &ldquo;Load Comments&rdquo; button to keep from hammering the Mastodon server. So have at it!</p>]]></description></item><item><title>Am I Crazy?</title><link>https://leo.fm/2021/03/amiafool/</link><pubDate>Fri, 19 Mar 2021 08:43:48 -0700</pubDate><author>Author</author><guid>https://leo.fm/2021/03/amiafool/</guid><description><![CDATA[<p>I pulled the trigger on a Monster Gaming Machine. I know it&rsquo;s crazy, but boys just want to have fun.</p>
+<p>See I have a three-year-old iMac Pro, but it&rsquo;s getting flaky and I&rsquo;ve been eyeing my wife&rsquo;s <a href="https://www.dell.com/en-us/work/shop/dell-ultrasharp-49-curved-monitor-u4919dw/apd/210-arnw/monitors-monitor-accessories" target="_blank" rel="noopener noreffer">49&quot; monitor</a> for months.</p>
+<figure><a class="lightgallery" href="/images/fool/widescreen.jpeg" title="Lisa&rsquo;s BAM" data-thumbnail="/images/fool/widescreen.jpeg" data-sub-html="<h2>Dell 49-inch Curved Monitor</h2>">
+        
+    </a><figcaption class="image-caption">Dell 49-inch Curved Monitor</figcaption>
+    </figure>
+<p>Apple&rsquo;s never going to do something like that! And how long before they ship something powerful that can work with an external monitor: A high-end mac Mini or a new mini-Mac Pro?</p>
+<p>I finally lost my patience and pulled the trigger on something <a href="https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/alienware-aurora-ryzen-edition-r10-gaming-desktop/spd/alienware-aurora-r10-desktop/wdryzr10v20hsb" target="_blank" rel="noopener noreffer">completely different</a>.</p>
+<figure><a class="lightgallery" href="/images/fool/aurora.jpeg" title="Alienware Aurora R10" data-thumbnail="/images/fool/aurora.jpeg" data-sub-html="<h2>Alienware Aurora Ryzen Edition R10</h2>">
+        
+    </a><figcaption class="image-caption">Alienware Aurora Ryzen Edition R10</figcaption>
+    </figure>
+<p>Maxed out with a Ryzen 7 5800X, nVidia GTX 3080, 128GB RAM, and dual 2TB drives (1 m.2, 1 spinning).</p>
+<p>I know I could save money and probably get something better by building my own or going to a custom gaming PC maker, but these components are hard to get and I figure Dell can get them faster than anyone else. Even so this baby doesn&rsquo;t ship &lsquo;til May.</p>
+<p>And as long as I&rsquo;m going for a power rig, I might as well go all out with a <a href="https://www.dell.com/en-us/shop/new-alienware-55-oled-gaming-monitor-aw5520qf/apd/210-auds/monitors-monitor-accessories" target="_blank" rel="noopener noreffer">monster monitor</a>, right?</p>
+<figure><a class="lightgallery" href="/images/fool/55incher.jpeg" title="Alienware 55-inch OLED Gaming Monitor" data-thumbnail="/images/fool/55incher.jpeg" data-sub-html="<h2>Alienware 55-inch OLED Gaming Monitor</h2>">
+        
+    </a><figcaption class="image-caption">Alienware 55-inch OLED Gaming Monitor</figcaption>
+    </figure>
+<p>A 55-inch OLED monitor that&rsquo;s absurdly expensive. (It&rsquo;s basically a hi-res TV but it costs a lot more.)</p>
+<p>I rationalize this crazy purchase because</p>
+<ol>
+<li>I believe in open source, and like Linux as much as I like macOS. Dell supports Linux pretty well. (No I don&rsquo;t plan on using Windows. Ick.)</li>
+<li>I really need to get to know the new PC hardware. Specifically The AMD Ryzen and the new nVidia ray-tracing GPUs.</li>
+<li>I can&rsquo;t get an Xbox Series X or Playstation 5 to save my life, but I really want to play something new.</li>
+<li>and the real reason&hellip; <a href="https://www.valheimgame.com" target="_blank" rel="noopener noreffer">Valheim</a> (it runs on Linux!)</li>
+</ol>
+<p>I&rsquo;ve been saving up for something like this for some time. It&rsquo;s kind of the Ultimate Gaming Machine for 2021.</p>
+<p>OK tell me I&rsquo;m a fool. I&rsquo;m ready to be roasted. Or you can come over and watch me play Valheim come May.</p>
+<p>UPDATE: It has arrived. I&rsquo;ve been playing with it all day and it&rsquo;s so fast. Super happy with the purchase. Dual booting Windows 10 with Manjaro Linux and everything is working perfectly. I think I&rsquo;m in love.</p>]]></description></item><item><title>I Am Not Throwing Away THIS Shot</title><link>https://leo.fm/2021/03/gottheshot/</link><pubDate>Thu, 18 Mar 2021 17:15:57 -0700</pubDate><author>Author</author><guid>https://leo.fm/2021/03/gottheshot/</guid><description><![CDATA[<p>Yesterday I got the first shot of the Covid-19 vaccine!</p>
+<figure><a class="lightgallery" href="/images/vaccine.png" title="Waiting to get a Fauci Ouchie" data-thumbnail="/images/vaccine.png" data-sub-html="<h2>In the waiting room</h2>">
+        
+    </a><figcaption class="image-caption">In the waiting room</figcaption>
+    </figure>
+<p>When I arrived at Kaiser they threw me a curve. &ldquo;Would you like Moderna or Johnson &amp; Johnson?&rdquo; I chose Moderna for a variety of reasons, but mostly because I think the mRNA technology is very cool. The process was quick and nearly painless. Afterwards I hod to wait 15 minutes, just in case I had a bad reaction. I didn&rsquo;t. My arm hurts a bit today, but that&rsquo;s the extent of the side effects. I expect worse after the second shot, April 14.</p>
+<p>Now we just have to get the rest of my friends and family vaccinated and life can kind of get back to normal!</p>]]></description></item><item><title>It's Right Against Wrong, Not Smart Against Dumb</title><link>https://leo.fm/2021/02/qanon/</link><pubDate>Sun, 07 Feb 2021 09:01:27 -0800</pubDate><author>Author</author><guid>https://leo.fm/2021/02/qanon/</guid><description><![CDATA[<p>Just because someone believes in conspiracy theories, doesn&rsquo;t mean they&rsquo;re dumb.</p>
+<p>From an article in <a href="https://newrepublic.com/article/161266/qanon-classism-marjorie-taylor-greene" target="_blank" rel="noopener noreffer">The New Republic</a>:</p>
+<blockquote>
+<p>The University of Minnesota’s Joanne Miller and Christina Farhart and Colorado State University’s Kyle Saunders conducted a survey examining support for conspiracy theories, including birtherism and 9/11 trutherism. In a result unsurprising to those who follow this research, they found that higher levels of political knowledge actually deepened the likelihood that conservatives with low trust in people and major institutions would endorse right-wing conspiracy theories. In a section reviewing previous research on the subject, the authors explained that political sophisticates “have the ability to make connections between abstract principles and more concrete attitudes and are therefore more fully able to notice the implications of specific attitudes for their worldviews.” “Because politically knowledgeable people care more about politics and hold stronger political attitudes,” they added, “they are especially likely to want to protect those attitudes.”</p>
+</blockquote>
+<p>The researchers conclude that &ldquo;people will believe what they want to believe in spite of available data and evidence.&rdquo;</p>]]></description></item><item><title>Tweet to Toot</title><link>https://leo.fm/2021/01/tweet2toot/</link><pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2021/01/tweet2toot/</guid><description><![CDATA[<p>I admit the timing is confusing. No I&rsquo;m not leaving Twitter because they blocked Trump. Duh.</p>
+<p>It&rsquo;s just too toxic on Twitter. The continued trolling was hurting our team, our hosts, and our business, so we decided, as a team, to pack up and move out. I don&rsquo;t know about you, but I always found Twitter mildly disturbing. I won&rsquo;t miss it (any more than I miss Facebook).</p>
+<p>We&rsquo;re not going dark, though. Not at all.</p>
+<p>If you want to keep up on what&rsquo;s coming up on TWiT, subscribe to our free newsletter at <a href="https://twit.tv/newsletter">https://twit.tv/newsletter</a>. The network also has an active <a href="https://facebook.com/twitnetwork" target="_blank" rel="noopener noreffer">Facebook</a> and <a href="https://instagram.com/twit.tv" target="_blank" rel="noopener noreffer">Instagram</a> presence. And, of course, many TWiTs are active on the <a href="https://www.twit.community" target="_blank" rel="noopener noreffer">TWiT Forums</a>. We&rsquo;d love to see you there, too!</p>
+<p>Instead of tweeting, I&rsquo;m tooting at <a href="https://twit.social/@leo" target="_blank" rel="noopener noreffer">@leo@twit.social</a>. You can follow and message me there from any <a href="https://joinmastodon.org" target="_blank" rel="noopener noreffer">Mastodon instance</a> (that&rsquo;s one of the reasons I love Mastodon: it&rsquo;s <a href="https://en.wikipedia.org/wiki/Distributed_social_network" target="_blank" rel="noopener noreffer">federated</a>). If you don&rsquo;t already have a Mastodon account, you&rsquo;re welcome to join me at <a href="https://twit.social" target="_blank" rel="noopener noreffer">twit.social</a>. To eliminate spam and trolls, you do have to be manually approved - but I promise to do that within a day or two.</p>
+<p>I&rsquo;ve also moved the old Twitter news links feed, @links_for_twit to <a href="https://twit.social/@twitnews" target="_blank" rel="noopener noreffer">@twitnews@twit.social</a>. These are links to stories I&rsquo;m following for our shows. It&rsquo;s automatically generated from my <a href="https://pinboard.in/u:leolaporte" target="_blank" rel="noopener noreffer">Pinboard feed</a>.</p>
+<p>Thanks for understanding. See you in the Fediverse!</p>]]></description></item><item><title>Guilty as Charged</title><link>https://leo.fm/2020/11/guilty/</link><pubDate>Sat, 28 Nov 2020 21:36:39 -0800</pubDate><author>Author</author><guid>https://leo.fm/2020/11/guilty/</guid><description><![CDATA[<p>I resemble that cartoon.</p>
+<figure><a class="lightgallery" href="/images/blogging.jpg" title="Blogging vs. blog setups" data-thumbnail="/images/blogging.jpg" data-sub-html="<h2>via Rakhim https://rakhim.org/honestly-undefined/19/</h2>">
+        
+    </a><figcaption class="image-caption">via Rakhim <a href="https://rakhim.org/honestly-undefined/19/">https://rakhim.org/honestly-undefined/19/</a></figcaption>
+    </figure>]]></description></item><item><title>Notes on the M1 MacBook Pro</title><link>https://leo.fm/2020/11/applesilicon/</link><pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2020/11/applesilicon/</guid><description><![CDATA[<p>I got my new M1-based MacBook Pro (17,1) on Monday (11/23/2020). Here are some preliminary notes.</p>
+<p>This MBP 13&quot; is identical to the previous Intel 13&quot; outwardly, but inside, it&rsquo;s very different. I maxed it out with 16GB of RAM and a 2TB SSD and it&rsquo;s noticeably snappier. No the fan is never audible, and even when rendering a large 4K Motion file it only gets a little warm. And battery life is the best of any system I&rsquo;ve ever used. It depends a lot on what I&rsquo;m doing but it&rsquo;s always at least 9 hours and usually around 15.</p>
+<p>All that&rsquo;s great but you have to weigh it against the issues of software compatibility. Over time Apple Silicon&rsquo;s advantages over Intel will increase, while software issues will gradually disappear. But <em>today</em> the issue of incompatible software could be significant<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, especially at the edges.</p>
+<p>The <a href="https://isapplesiliconready.com" target="_blank" rel="noopener noreffer">Is Apple Silicon Ready website</a> has a decent list of some big names that are (and aren&rsquo;t yet) native. But under the surface lurk many thousands of programs that just don&rsquo;t run. All Apple programs run natively. Many popular Mac programs run natively. Many CLI and dev tools don&rsquo;t run at all.</p>
+<p>Yes it&rsquo;s a cool architecture, yes it&rsquo;s really fast, but unless you feel like your machine is slow (I didn&rsquo;t feel that way with any Macs in the past couple of years), and you&rsquo;re sure the programs you need will work, it might be worth waiting until the Mac dev community gets with it.</p>
+<p>I&rsquo;ll keep track of the issues I&rsquo;m encountering in the following table.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Note: I&rsquo;m using <a href="https://www.macports.org" target="_blank" rel="noopener noreffer">Macports</a> as my package manager.</p>
+<table>
+<thead>
+<tr>
+<th>Program</th>
+<th style="text-align:center">Native?</th>
+<th style="text-align:center">Runs?</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Chrome (87)</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Stadia works, too!</td>
+</tr>
+<tr>
+<td>Panic Nova</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>I&rsquo;m using it to write this!</td>
+</tr>
+<tr>
+<td>iTerm</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td></td>
+</tr>
+<tr>
+<td>ssh</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Apple provided, OpenSSH_8.1p1, LibreSSL 2.7.3</td>
+</tr>
+<tr>
+<td>git, curl, nano, bash, zsh, vim, sed, grep, awk, python, perl, etc.</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Apple provided</td>
+</tr>
+<tr>
+<td>VSCode</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><a href="https://code.visualstudio.com/insiders/#" target="_blank" rel="noopener noreffer">Insiders beta</a> some extensions fail</td>
+</tr>
+<tr>
+<td>Fish shell</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>native out of the box, yay!</td>
+</tr>
+<tr>
+<td>Rust</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>yay rustup!</td>
+</tr>
+<tr>
+<td>Emacs CLI</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><code>sudo port install emacs-devel</code> works!</td>
+</tr>
+<tr>
+<td>Emacs GUI</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><code>sudo port install emacs-app-devel</code></td>
+</tr>
+<tr>
+<td>homebrew</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Now M1 native, but many packages are not yet. I&rsquo;ve switched to Macports for many reasons<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+</tr>
+<tr>
+<td>Dr Racket</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Woo hoo! Thanks to Matthew Flatt! Requires building from source, for now.</td>
+</tr>
+<tr>
+<td>Lastpass</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>works fine and speed isn&rsquo;t an issue</td>
+</tr>
+<tr>
+<td>Mailmate</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>My preferred email program - seems to run fine under Rosetta 2</td>
+</tr>
+<tr>
+<td>MacPorts</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>but many of the ports don&rsquo;t run<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+</tr>
+<tr>
+<td>Syncthing</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>installed via Macports</td>
+</tr>
+<tr>
+<td>Franz</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td><a href="https://meetfranz.com">https://meetfranz.com</a> an electron app - electron is getting updated so should these, eventually</td>
+</tr>
+<tr>
+<td>ghcup</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td>Haskell installer &ldquo;Unknown architecture&rdquo;</td>
+</tr>
+<tr>
+<td>SBCL Lisp</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td>won&rsquo;t install using MacPorts, but as a stopgap ECL is native</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>I suppose for some of the command-line utilities it might be possible to compile from source using gcc but many libraries aren&rsquo;t ported yet (notably gnutls), others like OpenJDK and Electron have been ported but we&rsquo;re still waiting for their dependent projects to update. Many apps have ARM versions; so maybe it&rsquo;s a Big Sur issue?</p>
+<p>Update: I built Racket CS from source (using the latest version from Github). It&rsquo;s now Apple native and man is it FAST! Faster even than Racket BC on my iMac Pro with 64GB of RAM.</p>
+<p>Honestly, two months in, I don&rsquo;t even want to use any other computer. The M1 MacBook is the best laptop I&rsquo;ve ever owned. I&rsquo;m very excited to see what Apple does in 2021. I&rsquo;ll probably replace all our Macs. Intel just doesn&rsquo;t cut it any more.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>See <a href="https://www.theregister.com/2020/11/18/apple_silicon_m1_mac_compatibility/" target="_blank" rel="noopener noreffer">this Register article</a> from 11/18 - but it&rsquo;s a moving target and things will get better over time. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>The <code>lipo info</code> command is helpful in determining whether a program is universal. (e.g. <code>lipo -info /Applications/LastPass.app/Contents/MacOS/LastPass</code> or <code>lipo -info (status fish-path)</code>) The Mac Activity Monitor also has an &ldquo;Architecture&rdquo; column. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>It&rsquo;s worth running <code>sudo port selfupdate</code> daily - many packages are being updated for Apple Silicon (just got gnupg updated for arm). I find Macports more Unix-y. This article helped me make the switch from Homebrew to Macports: <a href="https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/" target="_blank" rel="noopener noreffer">Thoughts on macOS Package Managers</a>. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></description></item><item><title>Rapid Testing</title><link>https://leo.fm/2020/11/rapid/</link><pubDate>Sat, 21 Nov 2020 10:10:39 -0800</pubDate><author>Author</author><guid>https://leo.fm/2020/11/rapid/</guid><description><![CDATA[<p>A new study from CU Boulder (my son&rsquo;s alma mater) and Harvard&rsquo;s TF Chan School of Public Health points to a way forward in the pandemic.</p>
+<p>The <a href="https://www.hsph.harvard.edu/news/press-releases/frequent-rapid-testing-could-turn-national-covid-19-tide-within-weeks/" target="_blank" rel="noopener noreffer">study</a> says</p>
+<blockquote>
+<p>“These rapid tests are contagiousness tests,” said senior co-author Dr. Michael Mina, an assistant professor of epidemiology at the Harvard T.H. Chan School of Public Health. “They are extremely effective in detecting COVID-19 when people are contagious.”</p>
+<p>They are also affordable, he added. The rapid tests can cost as little as $1 each and return results in 15 minutes.</p>
+</blockquote>
+<p>Best of all, &ldquo;testing half the population weekly with inexpensive, rapid-turnaround COVID-19 tests would drive the virus toward elimination within weeks.&rdquo;</p>
+<p>This is something we could do today to end the pandemic by Christmas. The FDA has already approved the tests.</p>
+<p>For more information and some easy ways to get Congress off its butt visit <a href="https://rapidtests.org" target="_blank" rel="noopener noreffer">rapidtests.org</a>.</p>]]></description></item></channel></rss>

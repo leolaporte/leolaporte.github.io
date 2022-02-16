@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>images - Tag - leo.fm</title><link>https://leo.fm/tags/images/</link><description>images - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Wed, 20 May 2020 09:29:28 -0700</lastBuildDate><atom:link href="https://leo.fm/tags/images/" rel="self" type="application/rss+xml"/><item><title>Displaying Images, Uploading Images</title><link>https://leo.fm/2020/05/images/</link><pubDate>Wed, 20 May 2020 09:29:28 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/images/</guid><description><![CDATA[<p>The only issue I&rsquo;m having with using a static web page generator like Hugo is images.</p>
+<p>I like to put images in my blog posts. I think it really dresses them up. But if I have to upload all these images manually that&rsquo;s going to be a pain in the butt.</p>
+<p>This image is linked in markdown:</p>
+<p><figure><a class="lightgallery" href="https://i2.wp.com/leolaporte.com/wp-content/uploads/2019/12/tri-hero2019-1.jpg" title="Bill and me" data-thumbnail="https://i2.wp.com/leolaporte.com/wp-content/uploads/2019/12/tri-hero2019-1.jpg" data-sub-html="<h2>Bill and I</h2><p>Bill and me</p>">
+        
+    </a><figcaption class="image-caption">Bill and I</figcaption>
+    </figure></p>
+<p>OK that works fine but, the picture is hosted on my Wordpress site. I don&rsquo;t like hosting images on other sites because they can disappear without warning. That happened to a lot of the images from my previous blog and it&rsquo;s sad.</p>
+<p>Ideally an image would be on the same server as the blog. Then moving the blog would be simpler. There doesn&rsquo;t seem to be any automatic way to fetch a non-local image and store it locally during the Hugo render. I wish there were.</p>
+<p>So for now, I have to upload the image to this server by hand. 😑</p>]]></description></item></channel></rss>

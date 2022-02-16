@@ -1,0 +1,110 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>hugo - Tag - leo.fm</title><link>https://leo.fm/tags/hugo/</link><description>hugo - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Sat, 28 Nov 2020 21:36:39 -0800</lastBuildDate><atom:link href="https://leo.fm/tags/hugo/" rel="self" type="application/rss+xml"/><item><title>Guilty as Charged</title><link>https://leo.fm/2020/11/guilty/</link><pubDate>Sat, 28 Nov 2020 21:36:39 -0800</pubDate><author>Author</author><guid>https://leo.fm/2020/11/guilty/</guid><description><![CDATA[<p>I resemble that cartoon.</p>
+<figure><a class="lightgallery" href="/images/blogging.jpg" title="Blogging vs. blog setups" data-thumbnail="/images/blogging.jpg" data-sub-html="<h2>via Rakhim https://rakhim.org/honestly-undefined/19/</h2>">
+        
+    </a><figcaption class="image-caption">via Rakhim <a href="https://rakhim.org/honestly-undefined/19/">https://rakhim.org/honestly-undefined/19/</a></figcaption>
+    </figure>]]></description></item><item><title>My New Hugo Workflow</title><link>https://leo.fm/2020/06/hugoworkflow/</link><pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2020/06/hugoworkflow/</guid><description><![CDATA[<p>This site is a laboratory. In particular, I&rsquo;ve been seeking a friction-free way to write. I think I&rsquo;ve found it.</p>
+<p>  I&rsquo;ve long wanted to be able to blog as easily as one would tweet. Most content management systems put up a number of roadblocks. If it&rsquo;s a struggle to post, however little, I&rsquo;m less likely to do it.</p>
+<p>I know I&rsquo;m an edge case here. As a broadcaster there&rsquo;s zero friction to speaking my mind. I sit in front of a mic, form a thought, make some mouth noises, done.</p>
+<p><i class="fas fa-brain"></i>    <i class="fas fa-long-arrow-alt-right"></i>    <i class="fas fa-head-side-cough"></i>    <i class="fas fa-long-arrow-alt-right"></i>    <i class="fas fa-microphone"></i>    <i class="fas fa-long-arrow-alt-right"></i>    <i class="fas fa-users"></i></p>
+<p>Writing is a much more painstaking process, and even though I&rsquo;ve done a lot of it, it&rsquo;s always felt like labor. I listen to writers do podcasts (I&rsquo;m listening to <a href="https://daringfireball.net/thetalkshow/2020/06/24/ep-286" target="_blank" rel="noopener noreffer">Jon Gruber&rsquo;s Talk Show from WWDC</a> right now, for example) and I can feel how much harder it is for them to talk than write. Sometimes I can even hear them re-writing their words before they speak. I probably should do that more often, but I generally speak quickly and with little to no editing. To each his own but that’s my preferred way to create content. And how I’ve made my living for more than 40 years.</p>
+<p>But I do want to write. There are lots of reasons to put pen to paper. Writing forces a more thoughtful pace, requires more rigorous reasoning, and is the best way to develop complex ideas. It&rsquo;s also more permanent, and, potentially, begs a more thoughtful response from readers. And, once I&rsquo;m done, writing is more deeply satisfying. That makes sense. The more effort one puts into doing something, the more satisfying the sense of accomplishment will be when done.</p>
+<blockquote>
+<p>&ldquo;I don’t like to write, but like having written.&rdquo;
+&ndash; Frank Norris</p>
+</blockquote>
+<p>Writing is so much work for me that I don&rsquo;t want to add any friction via the mechanics of posting what I&rsquo;ve written. Ideally I&rsquo;d fire up an editor, write something, save it, and it would magically appear as a post. I think that&rsquo;s one reason Twitter is so successful. But&hellip; it&rsquo;s also why Twitter is so full of ephemeral crap &ndash; it&rsquo;s <em>too</em> easy. Twitter combines the worst of both worlds: thoughtless posting with a permanent record. That combo has bitten most of us over time. So I guess I don&rsquo;t want to make it <em>that</em> easy. There should be enough friction to encourage thoughtful writing. That&rsquo;s where the text editor comes in. Once I&rsquo;m looking at all that blank real-estate on my screen I feel the need to fill it. There&rsquo;s no jotting and posting here. I&rsquo;m in writing mode.</p>
+<p>For a while I used Manton Reece&rsquo;s <a href="https://micro.blog/" target="_blank" rel="noopener noreffer">micro.blog</a>, <em>“the fastest way to blog”</em>. But it’s too fast. Like Twitter it encourages short off-the-cuff posts - and I wanted to encourage my monkey mind to work on longer pieces (like this). Also, after long experience, I&rsquo;ve learned it&rsquo;s best to host my own content. I want my stuff to live on <em>my</em> server, and to live in a form that&rsquo;s easy to backup and move around (like, say, plaintext + markdown).</p>
+<p>So, my shopping list for a blog includes:</p>
+<ol>
+<li>Mostly friction-less posting</li>
+<li>Write anywhere: iPad, Mac, Linux</li>
+<li>Pick up writing anywhere else</li>
+<li>Self-hosted</li>
+<li>Clean, portable content</li>
+<li>Clean, attractive presentation</li>
+</ol>
+<p>I believe I’ve found all of the above here. My workflow at leo.fm varies, but over time it has evolved to the following.</p>
+<p>Hugo is running on my server with -w to watch for changes in the content folder<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>I mount my web site locally using <a href="https://github.com/libfuse/sshfs" target="_blank" rel="noopener noreffer">sshfs</a> on all my machines, so I can create and edit posts on my local machines. When that file is saved or updated, hugo rebuilds the site instantly, and the post is up. You can’t get simpler than Ctrl-S to post.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>This is an wonderfully flexible workflow. That’s another requirement of friction-free posting, it has to work wherever I am.</p>
+<p>There are a number of ways I can create and edit posts. I’ve used emacs on the server for many posts. I like <a href="https://panic.com/code-editor/" target="_blank" rel="noopener noreffer">Panic’s Code Editor</a> for the iPad, too. Its support for ssh, sftp, and editing makes the iPad a perfect way to work on the site. I actually started this post on my iPad using Code Editor<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> but I’m finishing it on my Mac using the absolutely wonderful <a href="https://typora.io/" target="_blank" rel="noopener noreffer">Typora</a> (Mac/Windows/Linux). This really is the perfect writing tool for any purpose, but for blogging it’s the best markdown editor I’ve ever used, it even supports the automatic upload of image files. And it’s clean and beautiful - the ideal writing tool.</p>
+<p>I started this post on the iPad using Code Editor while eating breakfast. Now, after lunch, I’m finishing it on my iMac in my office. I’ll probably edit it later on my Linux laptop while in bed. It’s all the same file, which lives on the server at TWiT, but I have many ways to access it. Perfect. Now to change draft to false and post.</p>
+<div class="typeit"><div id="id-1" class=""></div></div>
+
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>For some reason this sometimes results in missing pieces. I believe that’s because hugo in watch mode wants to use the “staging” rules not the “production” rules. This even though I explicitly set hugo_env to production when I run it. Still, some of the plug-ins I use, like mermaid and mapbox don’t always get rendered. Oddly comments do, so it’s a puzzle. The quick fix is to ssh in and do a command-line rebuild and everything reappears. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Saving doesn’t always mean publishing, however. hugo supports YAML compiler directives in the header of every post. One of the directives, draft, let’s me publish a post or keep working on it. Another directive specifies publish date. If that’s in the future, hugo will wait to publish the post. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>I’m keeping an eye out for Panic’s new Macintosh editor, Nova. It’s possible it will replace Typora, but I bet it will be more useful for coding than writing. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></description></item><item><title>Unique Filenames in Page Bundles</title><link>https://leo.fm/2020/05/bundles/</link><pubDate>Wed, 20 May 2020 12:20:52 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/bundles/</guid><description><![CDATA[<p>Now that I&rsquo;ve switched to the new LoveIt template I noticed something worrisome.</p>
+<p>I <em>was</em> organizing my posts by month folders, but it looks like LoveIt uses Hugo&rsquo;s <a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener noreffer">page bundles</a> which means that each post ends up in its own directory (using the filename of the source file) in the root of the public folder.</p>
+<p>Does that mean that every post I ever write will have to have a unique name? Maybe Hugo has a way to solve this, but just in case I&rsquo;ve re-written my newpost.fish function to append the current UNIX time in seconds to the filename so it&rsquo;s unique. So the source file for this post, for example, is bundles1590002452.md.</p>
+<p>I&rsquo;m still going to put the source files in the month folder. So, for example:</p>
+<div class="mermaid" id="id-1"></div>
+<p>is transformed by Hugo into the static files in the public folder</p>
+<div class="mermaid" id="id-2"></div>
+<p>here&rsquo;s the new fish function code:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fish" data-lang="fish">        ...
+	<span class="k">set</span> -l thepost <span class="s2">&#34;post/&#34;</span><span class="o">(</span>date +%Y-%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="o">(</span>date +%s<span class="o">)</span><span class="s2">&#34;.md&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>Update:</strong> After further exploration I&rsquo;ve realized that hugo can use permalinks of the year-month form (check out the url of this post) and that I can organize the content folders that way, too. I no longer have to use crazy unique filenames. I only need to make sure a post filename is unique in any given month. So here&rsquo;s the new (and I hope final) fish code to create a new post:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fish" data-lang="fish">    ...
+
+	<span class="c"># build the file name using the current year and month as dirs, $argv is the argument to the function
+</span><span class="c"></span>    <span class="c"># this generates a string like &#34;posts/2020/05/mypost.md&#34;
+</span><span class="c"></span>	<span class="k">set</span> -l thepost <span class="s2">&#34;posts/&#34;</span><span class="o">(</span>date +%Y<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="o">(</span>date +%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="s2">&#34;.md&#34;</span>
+    ...
+    
+</code></pre></td></tr></table>
+</div>
+</div>]]></description></item><item><title>Displaying Images, Uploading Images</title><link>https://leo.fm/2020/05/images/</link><pubDate>Wed, 20 May 2020 09:29:28 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/images/</guid><description><![CDATA[<p>The only issue I&rsquo;m having with using a static web page generator like Hugo is images.</p>
+<p>I like to put images in my blog posts. I think it really dresses them up. But if I have to upload all these images manually that&rsquo;s going to be a pain in the butt.</p>
+<p>This image is linked in markdown:</p>
+<p><figure><a class="lightgallery" href="https://i2.wp.com/leolaporte.com/wp-content/uploads/2019/12/tri-hero2019-1.jpg" title="Bill and me" data-thumbnail="https://i2.wp.com/leolaporte.com/wp-content/uploads/2019/12/tri-hero2019-1.jpg" data-sub-html="<h2>Bill and I</h2><p>Bill and me</p>">
+        
+    </a><figcaption class="image-caption">Bill and I</figcaption>
+    </figure></p>
+<p>OK that works fine but, the picture is hosted on my Wordpress site. I don&rsquo;t like hosting images on other sites because they can disappear without warning. That happened to a lot of the images from my previous blog and it&rsquo;s sad.</p>
+<p>Ideally an image would be on the same server as the blog. Then moving the blog would be simpler. There doesn&rsquo;t seem to be any automatic way to fetch a non-local image and store it locally during the Hugo render. I wish there were.</p>
+<p>So for now, I have to upload the image to this server by hand. 😑</p>]]></description></item><item><title>Hello Dark Mode My Old Friend</title><link>https://leo.fm/2020/05/theming/</link><pubDate>Wed, 20 May 2020 08:53:08 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/theming/</guid><description><![CDATA[<p>I&rsquo;ve finally settled on a look for this new blog: <a href="https://themes.gohugo.io/loveit/" target="_blank" rel="noopener noreffer">LoveIt</a>. Hugo has a huge number of themes, with many different capabilities, but this seems to do everything I want. You can choose light or dark mode in the upper right hand corner. There&rsquo;s an RSS feed. And the organizational system makes sense to me. I&rsquo;m not turning on search, although it is supported. Maybe after the thing gets big and unwieldy.</p>
+<p>I&rsquo;d really like to port all the entries from leolaporte.com over - but that&rsquo;s a big project. Some day.</p>
+<p>Enjoy!</p>
+]]></description></item><item><title>Playing with Hugo Shortcodes</title><link>https://leo.fm/2020/05/playing/</link><pubDate>Tue, 19 May 2020 19:28:55 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/playing/</guid><description><![CDATA[<p>Hugo has shortcodes that are embedded in the markdown of posts.</p>
+<p>This is an example of the <code>figure</code> shortcode.</p>
+<figure>
+     <figcaption>
+            <p>Honor Guard at the Tomb of the Unknown Soldier, Athens</p>
+        </figcaption>
+</figure>
+
+<p>And this is a gist from my github account:</p>
+<script type="application/javascript" src="https://gist.github.com/leolaporte/2004ed1b383d122bf08ff5daab504e3d.js"></script>
+
+<p>Et voila</p>
+]]></description></item></channel></rss>

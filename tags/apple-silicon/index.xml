@@ -1,0 +1,155 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>apple silicon - Tag - leo.fm</title><link>https://leo.fm/tags/apple-silicon/</link><description>apple silicon - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leo.fm/tags/apple-silicon/" rel="self" type="application/rss+xml"/><item><title>Notes on the M1 MacBook Pro</title><link>https://leo.fm/2020/11/applesilicon/</link><pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2020/11/applesilicon/</guid><description><![CDATA[<p>I got my new M1-based MacBook Pro (17,1) on Monday (11/23/2020). Here are some preliminary notes.</p>
+<p>This MBP 13&quot; is identical to the previous Intel 13&quot; outwardly, but inside, it&rsquo;s very different. I maxed it out with 16GB of RAM and a 2TB SSD and it&rsquo;s noticeably snappier. No the fan is never audible, and even when rendering a large 4K Motion file it only gets a little warm. And battery life is the best of any system I&rsquo;ve ever used. It depends a lot on what I&rsquo;m doing but it&rsquo;s always at least 9 hours and usually around 15.</p>
+<p>All that&rsquo;s great but you have to weigh it against the issues of software compatibility. Over time Apple Silicon&rsquo;s advantages over Intel will increase, while software issues will gradually disappear. But <em>today</em> the issue of incompatible software could be significant<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, especially at the edges.</p>
+<p>The <a href="https://isapplesiliconready.com" target="_blank" rel="noopener noreffer">Is Apple Silicon Ready website</a> has a decent list of some big names that are (and aren&rsquo;t yet) native. But under the surface lurk many thousands of programs that just don&rsquo;t run. All Apple programs run natively. Many popular Mac programs run natively. Many CLI and dev tools don&rsquo;t run at all.</p>
+<p>Yes it&rsquo;s a cool architecture, yes it&rsquo;s really fast, but unless you feel like your machine is slow (I didn&rsquo;t feel that way with any Macs in the past couple of years), and you&rsquo;re sure the programs you need will work, it might be worth waiting until the Mac dev community gets with it.</p>
+<p>I&rsquo;ll keep track of the issues I&rsquo;m encountering in the following table.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Note: I&rsquo;m using <a href="https://www.macports.org" target="_blank" rel="noopener noreffer">Macports</a> as my package manager.</p>
+<table>
+<thead>
+<tr>
+<th>Program</th>
+<th style="text-align:center">Native?</th>
+<th style="text-align:center">Runs?</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Chrome (87)</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Stadia works, too!</td>
+</tr>
+<tr>
+<td>Panic Nova</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>I&rsquo;m using it to write this!</td>
+</tr>
+<tr>
+<td>iTerm</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td></td>
+</tr>
+<tr>
+<td>ssh</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Apple provided, OpenSSH_8.1p1, LibreSSL 2.7.3</td>
+</tr>
+<tr>
+<td>git, curl, nano, bash, zsh, vim, sed, grep, awk, python, perl, etc.</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Apple provided</td>
+</tr>
+<tr>
+<td>VSCode</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><a href="https://code.visualstudio.com/insiders/#" target="_blank" rel="noopener noreffer">Insiders beta</a> some extensions fail</td>
+</tr>
+<tr>
+<td>Fish shell</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>native out of the box, yay!</td>
+</tr>
+<tr>
+<td>Rust</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>yay rustup!</td>
+</tr>
+<tr>
+<td>Emacs CLI</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><code>sudo port install emacs-devel</code> works!</td>
+</tr>
+<tr>
+<td>Emacs GUI</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td><code>sudo port install emacs-app-devel</code></td>
+</tr>
+<tr>
+<td>homebrew</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Now M1 native, but many packages are not yet. I&rsquo;ve switched to Macports for many reasons<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+</tr>
+<tr>
+<td>Dr Racket</td>
+<td style="text-align:center">😍</td>
+<td style="text-align:center">😍</td>
+<td>Woo hoo! Thanks to Matthew Flatt! Requires building from source, for now.</td>
+</tr>
+<tr>
+<td>Lastpass</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>works fine and speed isn&rsquo;t an issue</td>
+</tr>
+<tr>
+<td>Mailmate</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>My preferred email program - seems to run fine under Rosetta 2</td>
+</tr>
+<tr>
+<td>MacPorts</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>but many of the ports don&rsquo;t run<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+</tr>
+<tr>
+<td>Syncthing</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td>installed via Macports</td>
+</tr>
+<tr>
+<td>Franz</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">😍</td>
+<td><a href="https://meetfranz.com">https://meetfranz.com</a> an electron app - electron is getting updated so should these, eventually</td>
+</tr>
+<tr>
+<td>ghcup</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td>Haskell installer &ldquo;Unknown architecture&rdquo;</td>
+</tr>
+<tr>
+<td>SBCL Lisp</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td>won&rsquo;t install using MacPorts, but as a stopgap ECL is native</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td style="text-align:center">☠️</td>
+<td style="text-align:center">☠️</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>I suppose for some of the command-line utilities it might be possible to compile from source using gcc but many libraries aren&rsquo;t ported yet (notably gnutls), others like OpenJDK and Electron have been ported but we&rsquo;re still waiting for their dependent projects to update. Many apps have ARM versions; so maybe it&rsquo;s a Big Sur issue?</p>
+<p>Update: I built Racket CS from source (using the latest version from Github). It&rsquo;s now Apple native and man is it FAST! Faster even than Racket BC on my iMac Pro with 64GB of RAM.</p>
+<p>Honestly, two months in, I don&rsquo;t even want to use any other computer. The M1 MacBook is the best laptop I&rsquo;ve ever owned. I&rsquo;m very excited to see what Apple does in 2021. I&rsquo;ll probably replace all our Macs. Intel just doesn&rsquo;t cut it any more.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>See <a href="https://www.theregister.com/2020/11/18/apple_silicon_m1_mac_compatibility/" target="_blank" rel="noopener noreffer">this Register article</a> from 11/18 - but it&rsquo;s a moving target and things will get better over time. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>The <code>lipo info</code> command is helpful in determining whether a program is universal. (e.g. <code>lipo -info /Applications/LastPass.app/Contents/MacOS/LastPass</code> or <code>lipo -info (status fish-path)</code>) The Mac Activity Monitor also has an &ldquo;Architecture&rdquo; column. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>It&rsquo;s worth running <code>sudo port selfupdate</code> daily - many packages are being updated for Apple Silicon (just got gnupg updated for arm). I find Macports more Unix-y. This article helped me make the switch from Homebrew to Macports: <a href="https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/" target="_blank" rel="noopener noreffer">Thoughts on macOS Package Managers</a>. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></description></item></channel></rss>

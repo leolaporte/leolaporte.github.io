@@ -1,0 +1,49 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>newsletters - Tag - leo.fm</title><link>https://leo.fm/tags/newsletters/</link><description>newsletters - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Fri, 05 Jun 2020 11:34:41 -0700</lastBuildDate><atom:link href="https://leo.fm/tags/newsletters/" rel="self" type="application/rss+xml"/><item><title>Newsletters Worth Reading</title><link>https://leo.fm/2020/06/newsletters/</link><pubDate>Fri, 05 Jun 2020 11:34:41 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/06/newsletters/</guid><description><![CDATA[<p>I&rsquo;m not all that fond of newsletters; they just add to the crushing pile of email I&rsquo;ll never get through. For some reason I subscribe to them anyway.</p>
+<p>I use a filter to put any email with the word <code>Unsubscribe</code> in its body into a folder called Mailing Lists. This, at least, keeps my newsleters out of spam and out of my Inbox. From time to time I&rsquo;ll cull through the stack and find something worth reading.</p>
+<p>Another issue complicating things is that, for security reasons, I don&rsquo;t allow my email clients to render HTML or show images. Thus most newsletters look like an unintelligible bunch of cryptic nonsense. This is the start of an email I just received from Walmart</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">@media screen yahoo{@media
+(min-width:700px){.backgroundImage{min-width:700px!important}}}.stars{width:28%!important}.mosaic-seven{font-family:Bogle;width:320px!important}.mosaic-seven
+td{font-size:0!important;padding:0!important;cursor:pointer!important}.mosaic-seven
+td.text{height:150px!important;padding-left:0!important}.mosaic-seven
+td.text.top{height:150px!important}.mosaic-seven .first
+td.text{padding-left:20px!important}.mosaic-seven
+h3{font-size:24px!important;font-weight:400!important;margin:20px
+
+</code></pre></td></tr></table>
+</div>
+</div><p>Ugh! I&rsquo;m always glad when a newsletter puts a link to read on the web in the clear at the top of the message:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">View email in your browser (https://mailchi.mp/ba623677f8e3/rk0l9ast4h?e=e15d8b4016)
+
+1f0314a4-8aab-4e0f-926f-2f00a8e93e02.png
+Issue #489 - June 05, 2020
+Double issue today because I missed yesterday&#39;s issue.
+</code></pre></td></tr></table>
+</div>
+</div><p>Much nicer.</p>
+<p>This is <a href="https://morningcupofcoding.com/" target="_blank" rel="noopener noreffer">Morning Cup of Coding</a> (free) a nice little daily list of technical articles in all fields of software engineering from <a href="https://humanreadable.io" target="_blank" rel="noopener noreffer">HumanReadable.io</a>.</p>
+<p>As you might expect, Steven Levy does put that web referral up top in his new <a href="https://subscribe.wired.com/subscribe/splits/wired/WIR_STEVEN_LEVY?source=EDT_WIR_ARTICLE_SUBSCRIBE_LINK_0_STEVEN_LEVY_ZZ" target="_blank" rel="noopener noreffer">Plaintext</a> (paywall) newsletter from Wired. Unfortunately the letter itself is delivered in an image heavy <a href="https://support.office.com/en-us/article/change-the-message-format-to-html-rich-text-format-or-plain-text-338a389d-11da-47fe-b693-cf41f792fefa" target="_blank" rel="noopener noreffer">rich text format</a> which means it&rsquo;s unreadable unless you load images. Shouldn&rsquo;t a newsletter called Plaintext be written in plain text? I&rsquo;m sure this isn&rsquo;t Steven&rsquo;s choice; it&rsquo;s probably something Conde Nast does. Worse, you have to pay for Wired to get it. Despite all that, it&rsquo;s well worth it.</p>
+<p><em>Plaintext</em> is a good example of why newsletters matter. It&rsquo;s nothing like an article in Wired, or even an opinion piece. It&rsquo;s like hearing from Levy directly and very much reflects his voice. I like that. Steven offers context, insight, and an intellectual&rsquo;s perspective on tech news. This week, for example, he likened Facebook&rsquo;s forbearance toward Donald Trump to Chamberlin&rsquo;s appeasement at Munich. He says, &ldquo;It’s time for the internet moguls to stop acting like Chamberlain —- and start channeling Churchill.&rdquo;</p>
+<p>Of course I subscribe to newsletters from my co-hosts, <a href="https://www.thurrott.com/register" target="_blank" rel="noopener noreffer">Paul Thurrott</a> (subscribers only) and <a href="https://staceyoniot.com" target="_blank" rel="noopener noreffer">Stacey Higginbotham</a> (free), and TWiT&rsquo;s own <a href="https://twit.tv/newsletter" target="_blank" rel="noopener noreffer">upcoming shows newsletter</a> (free).</p>
+<p>But my post today is inspired by the news that one of the smartest people I know, Cory Doctorow, was leaving his long time &lsquo;zine, <a href="https://boingboing.net" target="_blank" rel="noopener noreffer">Boing Boing</a>. I love Cory&rsquo;s insight, taste, and quirky eye, so I instantly subscribed to his daily newsletter, <a href="https://mail.flarn.com/mailman/listinfo/plura-list/" target="_blank" rel="noopener noreffer">Plura-List</a> (free). You can also read his links on the web at <a href="https://pluralistic.net" target="_blank" rel="noopener noreffer">Pluralistic.net</a>. I need my Cory fix.</p>
+<p>I guess newsletters aren&rsquo;t so bad, after all. What newsletters do you recommend? Add them to the comments below.</p>]]></description></item></channel></rss>

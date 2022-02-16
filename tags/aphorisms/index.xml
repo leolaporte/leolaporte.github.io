@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>aphorisms - Tag - leo.fm</title><link>https://leo.fm/tags/aphorisms/</link><description>aphorisms - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Thu, 21 May 2020 08:04:21 -0700</lastBuildDate><atom:link href="https://leo.fm/tags/aphorisms/" rel="self" type="application/rss+xml"/><item><title>Words to Live By</title><link>https://leo.fm/2020/05/wtlb/</link><pubDate>Thu, 21 May 2020 08:04:21 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/wtlb/</guid><description><![CDATA[<p>I use <code>fortune</code> and <code>cowsay</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> to spit out pithy sayings when I launch my terminal<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This morning&rsquo;s seemed very apropos.</p>
+<blockquote>
+<p>Fame is a vapor; popularity an accident; the only earthly certainty is oblivion.</p>
+<p>&ndash; Mark Twain</p>
+</blockquote>
+<blockquote>
+<p>After the game the king and the pawn go in the same box.</p>
+<p>&ndash; Italian proverb</p>
+</blockquote>
+<p>The universe speaks.</p>
+<p>And now, a little movie<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> to demonstrate. Pay no attention to the locomotive.</p>
+<script id="asciicast-M6D73BCSFY4qTvLNmCtJWaMcA" src="https://asciinema.org/a/M6D73BCSFY4qTvLNmCtJWaMcA.js" async></script>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Mac users can use <a href="https://brew.sh" target="_blank" rel="noopener noreffer">brew</a> to install the <code>fortune</code> and <code>cowsay</code> programs. Arch users can combine both with <code>cowfortune</code> in the AUR. And for extra fun, install <code>lolcat</code> and get rainbow fortune cookies. I&rsquo;ve posted the fish shell code I use in the comments below (the footnote formatting mangles code blocks). <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>From <a href="https://xkcd.com/196/" target="_blank" rel="noopener noreffer">xkcd #196</a>:
+
+Thank you, Randall! <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>This movie brought to you by <a href="https://asciinema.org/" target="_blank" rel="noopener noreffer">asciinema</a>. Install on macOS with the command <code>brew install asciinema</code>. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></description></item></channel></rss>
