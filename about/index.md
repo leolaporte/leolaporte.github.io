@@ -8,7 +8,7 @@ I am a US-based journalist specializing in technology coverage on radio, TV, and
 
 This site (leo.fm) is a place I store quick posts. I guess it's the closest thing I have to a blog these days. Well done finding it. 
 
-leo.fm is a static site generated from markdown files using [Hugo](https://gohugo.io). The site template is [LoveIt](https://themes.gohugo.io/loveit/). The server is running Debian and nginx out of the TWiT studios. I mirror it at Github ([leolaporte.github.io](https://leolaporte.github.io) - that's one of the many benefits of a static site!
+leo.fm is a static site generated from markdown files using [Hugo](https://gohugo.io). The site template is [LoveIt](https://themes.gohugo.io/loveit/). The server is running Debian and nginx out of the TWiT studios. I mirror it at Github ([leolaporte.github.io](https://leolaporte.github.io)) - that's one of the many benefits of a static site!
 
 I have several other web sites you might be more interested in:
 
