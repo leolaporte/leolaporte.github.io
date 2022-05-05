@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>software - Tag - leo.fm</title><link>https://leo.fm/tags/software/</link><description>software - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leo.fm/tags/software/" rel="self" type="application/rss+xml"/><item><title>I Use This</title><link>https://leo.fm/2020/05/iusethis/</link><pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2020/05/iusethis/</guid><description><![CDATA[<p>Just in case you&rsquo;re curious, here&rsquo;s a description of the various hardware and software I use to work and play.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>software - Tag - leo.fm</title><link>https://leo.fm/tags/software/</link><description>software - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leo.fm/tags/software/" rel="self" type="application/rss+xml"/><item><title>I Use This</title><link>https://leo.fm/use/</link><pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/use/</guid><description><![CDATA[<p>Just in case you&rsquo;re curious, here&rsquo;s a description of the various hardware and software I use to work and play.</p>
 <p>This is a work in progress, but over time should reflect the entirety of my toolset. My hope is to keep this up-to-date because things change regularly. If there&rsquo;s something you&rsquo;d like to know and you don&rsquo;t see it here ask in the comments at the bottom of the page!</p>
 <p>I realize that the following is a ridiculously large menagerie of gear. That&rsquo;s an occupational hazard. I review more gear than the average bear, but I do keep the stuff that suits me best. One small point, I almost always buy all the gear I use. I generally don&rsquo;t ask for or use review units or loaners. I think it gives me a more realistic idea of what owning this gear is like, and this way I&rsquo;m not beholden to anyone. Any exceptions are indicated below.</p>
 <h3 id="home-office">Home Office</h3>
@@ -8,17 +8,30 @@
         
     </a><figcaption class="image-caption">My desktop and computers</figcaption>
     </figure></p>
-<p>My main desktop in the office is a</p>
+<p>Sitting on my desk in the office are:</p>
 <ul>
-<li>Alienware Aurora Ryzen Edition R10 gaming desk top from April 2021<br>
+<li>
+<p>Alienware Aurora Ryzen Edition R10 gaming desk top from April 2021<br>
 Ryzen 7 5800 X (8-core, 32MB Cache 4.7GHz)<br>
 Nvidia GeForce RTX 3080 10Gb G DDR6X<br>
 128GB Dual Channel DDR4 XMP at 3400MHz<br>
 2TB M.2 SSD<br>
 2 TB SATA drive<br>
-Dark Side of the Moon chassis with High-Performance CPU Liquid Cooling and 1000W Power Supply</li>
+Dark Side of the Moon chassis with High-Performance CPU Liquid Cooling and 1000W Power Supply
+I use a 5TB Drobo Mini for backup.</p>
+</li>
+<li>
+<p>Apple Mac Studio Max
+M1 Max
+32 GB RAM
+1 TB SSD
+connected to a 4TB OWC <a href="https://www.owcdigital.com/products/express-4m2" target="_blank" rel="noopener noreffer">Express 4M2</a> Thunderbolt 3 external drive</p>
+</li>
+<li>
+<p>Xbox Seriex X 1TB</p>
+</li>
 </ul>
-<p>Attached to a 55&quot; Alienware 120Hz 4K gaming monitor. I use a 5TB Drobo Mini for backup.</p>
+<p>Each connected to a 55&quot; Alienware 120Hz 4K gaming monitor. I switch devices using the remote control that came with the monitor.</p>
 <p>Audio goes to  a pair of <a href="https://audioengineusa.com/shop/wirelessspeakers/a2-wireless-computer-speakers/" target="_blank" rel="noopener noreffer">Audioengine 2</a> wired speakers with an Audioengine S8 subwoofer beneath the desk. I use an Alienware 310K Mech. Gaming Keyboard and 510M RGB Gaming Mouse mostly to play Valheim. The Dell dual boots Manjaro Linux and Windows 11.</p>
 <p>When I&rsquo;m not sitting at my desk, I primarily use one of my more portable devices:</p>
 <ul>
@@ -28,7 +41,7 @@ Dark Side of the Moon chassis with High-Performance CPU Liquid Cooling and 1000W
 <li>A 2021 iPad Mini</li>
 </ul>
 <p>There&rsquo;s also a 2016 17&quot; <a href="https://system76.com/laptops/oryx" target="_blank" rel="noopener noreffer">System76 Oryx Pro</a> i7/32GB/2.5TB/GTX980 laptop. It weighs about 10 pounds but I don&rsquo;t have the heart to give it away. It&rsquo;s running, you guessed it, Manjaro Linux Gnome Edition.</p>
-<p>All my systems have synced Document, Source Code, and dotfile directories using the excellent and free open-source <a href="https://syncthing.net" target="_blank" rel="noopener noreffer">SyncThing</a>. I keep system build instructions and scripts in <a href="https://obsidian.md" target="_blank" rel="noopener noreffer">Obsidian</a> which I also use for all my note-taking.</p>
+<p>All my systems have synced Document, Source Code, and dotfile directories using the excellent and free open-source <a href="https://syncthing.net" target="_blank" rel="noopener noreffer">SyncThing</a>. I keep system build instructions and scripts in <a href="https://notion.so" target="_blank" rel="noopener noreffer">Notion</a> which I also use for fancy note-taking. For day-to-day notes, to-dos, and lists I use emacs org-mode.</p>
 <p>Because this site is running on a server (cf. <a href="https://leolaporte.com/2016/07/21/a-grand-experiment/" target="_blank" rel="noopener noreffer">The Beast</a>) in the studio. I keep logged into it via a tmux session running over mosh on all the systems (even the iPad using the <a href="https://blink.sh/" target="_blank" rel="noopener noreffer">Blink terminal</a>).</p>
 <p>An emacs daemon is always running on the Beast so it&rsquo;s easy to jump into any post exactly where I left off from any system although right now I&rsquo;m editing this using Emacs Tramp mode from home on my M1 Pro Macbook.  This web site runs on <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer">hugo</a>, so I simply save the markdown file, rebuild the site (it takes about 200 milliseconds to rebuild it from scratch with hugo) and jump back into emacs (^XS ^Z hugo fg - it&rsquo;s practically muscle memory). If you see any stray XSs in any of the posts you&rsquo;ll know I accidentally hit the shift key instead of the Control key. To avoid this I always map Caps Lock to the control key. The other tmux panes monitor the five Minecraft instances also running on the server (using Spigot), <a href="https://weechat.org" target="_blank" rel="noopener noreffer">WeeChat IRC</a> logged into the TWiT IRC channel, and our <a href="https://jitsi.org/" target="_blank" rel="noopener noreffer">Jitsi videoconferencing</a> server.</p>
 <h4 id="smartphones">Smartphones</h4>
