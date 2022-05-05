@@ -15,7 +15,7 @@ Wed 04 May 2022 11:20:05 PM PDT
   
   >Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot.
 
-So now I'm working on that. I like Lisp because it's exactly as old as I am. 
+So now I'm working on that. I like Lisp because it's exactly as old as I am and it hasn't changed in 40 years. Unlike me. 
   
   I've been using the following books to learn:
   
