@@ -3,42 +3,40 @@
 <p>Another issue complicating things is that, for security reasons, I don&rsquo;t allow my email clients to render HTML or show images. Thus most newsletters look like an unintelligible bunch of cryptic nonsense. This is the start of an email I just received from Walmart</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
-</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">@media screen yahoo{@media
-(min-width:700px){.backgroundImage{min-width:700px!important}}}.stars{width:28%!important}.mosaic-seven{font-family:Bogle;width:320px!important}.mosaic-seven
-td{font-size:0!important;padding:0!important;cursor:pointer!important}.mosaic-seven
-td.text{height:150px!important;padding-left:0!important}.mosaic-seven
-td.text.top{height:150px!important}.mosaic-seven .first
-td.text{padding-left:20px!important}.mosaic-seven
-h3{font-size:24px!important;font-weight:400!important;margin:20px
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@media screen yahoo{@media
+</span></span><span class="line"><span class="cl">(min-width:700px){.backgroundImage{min-width:700px!important}}}.stars{width:28%!important}.mosaic-seven{font-family:Bogle;width:320px!important}.mosaic-seven
+</span></span><span class="line"><span class="cl">td{font-size:0!important;padding:0!important;cursor:pointer!important}.mosaic-seven
+</span></span><span class="line"><span class="cl">td.text{height:150px!important;padding-left:0!important}.mosaic-seven
+</span></span><span class="line"><span class="cl">td.text.top{height:150px!important}.mosaic-seven .first
+</span></span><span class="line"><span class="cl">td.text{padding-left:20px!important}.mosaic-seven
+</span></span><span class="line"><span class="cl">h3{font-size:24px!important;font-weight:400!important;margin:20px
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ugh! I&rsquo;m always glad when a newsletter puts a link to read on the web in the clear at the top of the message:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">View email in your browser (https://mailchi.mp/ba623677f8e3/rk0l9ast4h?e=e15d8b4016)
-
-1f0314a4-8aab-4e0f-926f-2f00a8e93e02.png
-Issue #489 - June 05, 2020
-Double issue today because I missed yesterday&#39;s issue.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">View email in your browser (https://mailchi.mp/ba623677f8e3/rk0l9ast4h?e=e15d8b4016)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">1f0314a4-8aab-4e0f-926f-2f00a8e93e02.png
+</span></span><span class="line"><span class="cl">Issue #489 - June 05, 2020
+</span></span><span class="line"><span class="cl">Double issue today because I missed yesterday&#39;s issue.
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Much nicer.</p>
 <p>This is <a href="https://morningcupofcoding.com/" target="_blank" rel="noopener noreffer">Morning Cup of Coding</a> (free) a nice little daily list of technical articles in all fields of software engineering from <a href="https://humanreadable.io" target="_blank" rel="noopener noreffer">HumanReadable.io</a>.</p>

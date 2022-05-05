@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>hugo - Tag - leo.fm</title><link>https://leo.fm/tags/hugo/</link><description>hugo - Tag - leo.fm</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>leo@leo.fm (Leo Laporte)</managingEditor><webMaster>leo@leo.fm (Leo Laporte)</webMaster><copyright>Copyright 2022 Leo Laporte, all rights reserved</copyright><lastBuildDate>Sat, 28 Nov 2020 21:36:39 -0800</lastBuildDate><atom:link href="https://leo.fm/tags/hugo/" rel="self" type="application/rss+xml"/><item><title>Guilty as Charged</title><link>https://leo.fm/2020/11/guilty/</link><pubDate>Sat, 28 Nov 2020 21:36:39 -0800</pubDate><author>Author</author><guid>https://leo.fm/2020/11/guilty/</guid><description><![CDATA[<p>I resemble that cartoon.</p>
 <figure><a class="lightgallery" href="/images/blogging.jpg" title="Blogging vs. blog setups" data-thumbnail="/images/blogging.jpg" data-sub-html="<h2>via Rakhim https://rakhim.org/honestly-undefined/19/</h2>">
         
-    </a><figcaption class="image-caption">via Rakhim <a href="https://rakhim.org/honestly-undefined/19/">https://rakhim.org/honestly-undefined/19/</a></figcaption>
+    </a><figcaption class="image-caption">via Rakhim <a href="https://rakhim.org/honestly-undefined/19/" target="_blank" rel="noopener noreffer">https://rakhim.org/honestly-undefined/19/</a></figcaption>
     </figure>]]></description></item><item><title>My New Hugo Workflow</title><link>https://leo.fm/2020/06/hugoworkflow/</link><pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://leo.fm/2020/06/hugoworkflow/</guid><description><![CDATA[<p>This site is a laboratory. In particular, I&rsquo;ve been seeking a friction-free way to write. I think I&rsquo;ve found it.</p>
 <p>  I&rsquo;ve long wanted to be able to blog as easily as one would tweet. Most content management systems put up a number of roadblocks. If it&rsquo;s a struggle to post, however little, I&rsquo;m less likely to do it.</p>
 <p>I know I&rsquo;m an edge case here. As a broadcaster there&rsquo;s zero friction to speaking my mind. I sit in front of a mic, form a thought, make some mouth noises, done.</p>
@@ -31,20 +31,20 @@
 <p>I started this post on the iPad using Code Editor while eating breakfast. Now, after lunch, I’m finishing it on my iMac in my office. I’ll probably edit it later on my Linux laptop while in bed. It’s all the same file, which lives on the server at TWiT, but I have many ways to access it. Perfect. Now to change draft to false and post.</p>
 <div class="typeit"><div id="id-1" class=""></div></div>
 
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>For some reason this sometimes results in missing pieces. I believe that’s because hugo in watch mode wants to use the “staging” rules not the “production” rules. This even though I explicitly set hugo_env to production when I run it. Still, some of the plug-ins I use, like mermaid and mapbox don’t always get rendered. Oddly comments do, so it’s a puzzle. The quick fix is to ssh in and do a command-line rebuild and everything reappears. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>For some reason this sometimes results in missing pieces. I believe that’s because hugo in watch mode wants to use the “staging” rules not the “production” rules. This even though I explicitly set hugo_env to production when I run it. Still, some of the plug-ins I use, like mermaid and mapbox don’t always get rendered. Oddly comments do, so it’s a puzzle. The quick fix is to ssh in and do a command-line rebuild and everything reappears.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
-<p>Saving doesn’t always mean publishing, however. hugo supports YAML compiler directives in the header of every post. One of the directives, draft, let’s me publish a post or keep working on it. Another directive specifies publish date. If that’s in the future, hugo will wait to publish the post. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:2">
+<p>Saving doesn’t always mean publishing, however. hugo supports YAML compiler directives in the header of every post. One of the directives, draft, let’s me publish a post or keep working on it. Another directive specifies publish date. If that’s in the future, hugo will wait to publish the post.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p>I’m keeping an eye out for Panic’s new Macintosh editor, Nova. It’s possible it will replace Typora, but I bet it will be more useful for coding than writing. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p>I’m keeping an eye out for Panic’s new Macintosh editor, Nova. It’s possible it will replace Typora, but I bet it will be more useful for coding than writing.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></description></item><item><title>Unique Filenames in Page Bundles</title><link>https://leo.fm/2020/05/bundles/</link><pubDate>Wed, 20 May 2020 12:20:52 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/bundles/</guid><description><![CDATA[<p>Now that I&rsquo;ve switched to the new LoveIt template I noticed something worrisome.</p>
+</div>]]></description></item><item><title>Unique Filenames in Page Bundles</title><link>https://leo.fm/2020/05/bundles/</link><pubDate>Wed, 20 May 2020 12:20:52 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/bundles/</guid><description><![CDATA[<p>Now that I&rsquo;ve switched to the new LoveIt template I noticed something worrisome.</p>
 <p>I <em>was</em> organizing my posts by month folders, but it looks like LoveIt uses Hugo&rsquo;s <a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener noreffer">page bundles</a> which means that each post ends up in its own directory (using the filename of the source file) in the root of the public folder.</p>
 <p>Does that mean that every post I ever write will have to have a unique name? Maybe Hugo has a way to solve this, but just in case I&rsquo;ve re-written my newpost.fish function to append the current UNIX time in seconds to the filename so it&rsquo;s unique. So the source file for this post, for example, is bundles1590002452.md.</p>
 <p>I&rsquo;m still going to put the source files in the month folder. So, for example:</p>
@@ -54,18 +54,18 @@
 <p>here&rsquo;s the new fish function code:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fish" data-lang="fish">        ...
-	<span class="k">set</span> -l thepost <span class="s2">&#34;post/&#34;</span><span class="o">(</span>date +%Y-%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="o">(</span>date +%s<span class="o">)</span><span class="s2">&#34;.md&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fish" data-lang="fish"><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">	<span class="k">set</span> <span class="na">-l</span> <span class="nv">thepost</span> <span class="s2">&#34;post/&#34;</span><span class="o">(</span><span class="nf">date</span> +%Y-%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="o">(</span><span class="nf">date</span> +%s<span class="o">)</span><span class="s2">&#34;.md&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>Update:</strong> After further exploration I&rsquo;ve realized that hugo can use permalinks of the year-month form (check out the url of this post) and that I can organize the content folders that way, too. I no longer have to use crazy unique filenames. I only need to make sure a post filename is unique in any given month. So here&rsquo;s the new (and I hope final) fish code to create a new post:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -74,14 +74,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fish" data-lang="fish">    ...
-
-	<span class="c"># build the file name using the current year and month as dirs, $argv is the argument to the function
-</span><span class="c"></span>    <span class="c"># this generates a string like &#34;posts/2020/05/mypost.md&#34;
-</span><span class="c"></span>	<span class="k">set</span> -l thepost <span class="s2">&#34;posts/&#34;</span><span class="o">(</span>date +%Y<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="o">(</span>date +%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="s2">&#34;.md&#34;</span>
-    ...
-    
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fish" data-lang="fish"><span class="line"><span class="cl">    ...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c"># build the file name using the current year and month as dirs, $argv is the argument to the function
+</span></span></span><span class="line"><span class="cl"><span class="c"></span>    <span class="c"># this generates a string like &#34;posts/2020/05/mypost.md&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c"></span>	<span class="k">set</span> <span class="na">-l</span> <span class="nv">thepost</span> <span class="s2">&#34;posts/&#34;</span><span class="o">(</span><span class="nf">date</span> +%Y<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="o">(</span><span class="nf">date</span> +%m<span class="o">)</span><span class="s2">&#34;/&#34;</span><span class="nv">$argv</span><span class="s2">&#34;.md&#34;</span>
+</span></span><span class="line"><span class="cl">    ...
+</span></span><span class="line"><span class="cl">    
+</span></span></code></pre></td></tr></table>
 </div>
 </div>]]></description></item><item><title>Displaying Images, Uploading Images</title><link>https://leo.fm/2020/05/images/</link><pubDate>Wed, 20 May 2020 09:29:28 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/images/</guid><description><![CDATA[<p>The only issue I&rsquo;m having with using a static web page generator like Hugo is images.</p>
 <p>I like to put images in my blog posts. I think it really dresses them up. But if I have to upload all these images manually that&rsquo;s going to be a pain in the butt.</p>
@@ -97,8 +97,7 @@
 <p>Enjoy!</p>
 ]]></description></item><item><title>Playing with Hugo Shortcodes</title><link>https://leo.fm/2020/05/playing/</link><pubDate>Tue, 19 May 2020 19:28:55 -0700</pubDate><author>Author</author><guid>https://leo.fm/2020/05/playing/</guid><description><![CDATA[<p>Hugo has shortcodes that are embedded in the markdown of posts.</p>
 <p>This is an example of the <code>figure</code> shortcode.</p>
-<figure>
-     <figcaption>
+<figure><figcaption>
             <p>Honor Guard at the Tomb of the Unknown Soldier, Athens</p>
         </figcaption>
 </figure>

@@ -102,7 +102,7 @@
 <td>MacPorts</td>
 <td style="text-align:center">☠️</td>
 <td style="text-align:center">😍</td>
-<td>but many of the ports don&rsquo;t run<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+<td>but many of the ports don&rsquo;t run<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
 </tr>
 <tr>
 <td>Syncthing</td>
@@ -114,7 +114,7 @@
 <td>Franz</td>
 <td style="text-align:center">☠️</td>
 <td style="text-align:center">😍</td>
-<td><a href="https://meetfranz.com">https://meetfranz.com</a> an electron app - electron is getting updated so should these, eventually</td>
+<td><a href="https://meetfranz.com" target="_blank" rel="noopener noreffer">https://meetfranz.com</a> an electron app - electron is getting updated so should these, eventually</td>
 </tr>
 <tr>
 <td>ghcup</td>
@@ -139,17 +139,17 @@
 <p>I suppose for some of the command-line utilities it might be possible to compile from source using gcc but many libraries aren&rsquo;t ported yet (notably gnutls), others like OpenJDK and Electron have been ported but we&rsquo;re still waiting for their dependent projects to update. Many apps have ARM versions; so maybe it&rsquo;s a Big Sur issue?</p>
 <p>Update: I built Racket CS from source (using the latest version from Github). It&rsquo;s now Apple native and man is it FAST! Faster even than Racket BC on my iMac Pro with 64GB of RAM.</p>
 <p>Honestly, two months in, I don&rsquo;t even want to use any other computer. The M1 MacBook is the best laptop I&rsquo;ve ever owned. I&rsquo;m very excited to see what Apple does in 2021. I&rsquo;ll probably replace all our Macs. Intel just doesn&rsquo;t cut it any more.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>See <a href="https://www.theregister.com/2020/11/18/apple_silicon_m1_mac_compatibility/" target="_blank" rel="noopener noreffer">this Register article</a> from 11/18 - but it&rsquo;s a moving target and things will get better over time. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>See <a href="https://www.theregister.com/2020/11/18/apple_silicon_m1_mac_compatibility/" target="_blank" rel="noopener noreffer">this Register article</a> from 11/18 - but it&rsquo;s a moving target and things will get better over time.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
-<p>The <code>lipo info</code> command is helpful in determining whether a program is universal. (e.g. <code>lipo -info /Applications/LastPass.app/Contents/MacOS/LastPass</code> or <code>lipo -info (status fish-path)</code>) The Mac Activity Monitor also has an &ldquo;Architecture&rdquo; column. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:2">
+<p>The <code>lipo info</code> command is helpful in determining whether a program is universal. (e.g. <code>lipo -info /Applications/LastPass.app/Contents/MacOS/LastPass</code> or <code>lipo -info (status fish-path)</code>) The Mac Activity Monitor also has an &ldquo;Architecture&rdquo; column.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p>It&rsquo;s worth running <code>sudo port selfupdate</code> daily - many packages are being updated for Apple Silicon (just got gnupg updated for arm). I find Macports more Unix-y. This article helped me make the switch from Homebrew to Macports: <a href="https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/" target="_blank" rel="noopener noreffer">Thoughts on macOS Package Managers</a>. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p>It&rsquo;s worth running <code>sudo port selfupdate</code> daily - many packages are being updated for Apple Silicon (just got gnupg updated for arm). I find Macports more Unix-y. This article helped me make the switch from Homebrew to Macports: <a href="https://saagarjha.com/blog/2019/04/26/thoughts-on-macos-package-managers/" target="_blank" rel="noopener noreffer">Thoughts on macOS Package Managers</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></description></item></channel></rss>
+</div>]]></description></item></channel></rss>

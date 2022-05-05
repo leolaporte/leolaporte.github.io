@@ -27,17 +27,17 @@
 <p>I started this post on the iPad using Code Editor while eating breakfast. Now, after lunch, I’m finishing it on my iMac in my office. I’ll probably edit it later on my Linux laptop while in bed. It’s all the same file, which lives on the server at TWiT, but I have many ways to access it. Perfect. Now to change draft to false and post.</p>
 <div class="typeit"><div id="id-1" class=""></div></div>
 
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>For some reason this sometimes results in missing pieces. I believe that’s because hugo in watch mode wants to use the “staging” rules not the “production” rules. This even though I explicitly set hugo_env to production when I run it. Still, some of the plug-ins I use, like mermaid and mapbox don’t always get rendered. Oddly comments do, so it’s a puzzle. The quick fix is to ssh in and do a command-line rebuild and everything reappears. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>For some reason this sometimes results in missing pieces. I believe that’s because hugo in watch mode wants to use the “staging” rules not the “production” rules. This even though I explicitly set hugo_env to production when I run it. Still, some of the plug-ins I use, like mermaid and mapbox don’t always get rendered. Oddly comments do, so it’s a puzzle. The quick fix is to ssh in and do a command-line rebuild and everything reappears.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
-<p>Saving doesn’t always mean publishing, however. hugo supports YAML compiler directives in the header of every post. One of the directives, draft, let’s me publish a post or keep working on it. Another directive specifies publish date. If that’s in the future, hugo will wait to publish the post. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:2">
+<p>Saving doesn’t always mean publishing, however. hugo supports YAML compiler directives in the header of every post. One of the directives, draft, let’s me publish a post or keep working on it. Another directive specifies publish date. If that’s in the future, hugo will wait to publish the post.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p>I’m keeping an eye out for Panic’s new Macintosh editor, Nova. It’s possible it will replace Typora, but I bet it will be more useful for coding than writing. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p>I’m keeping an eye out for Panic’s new Macintosh editor, Nova. It’s possible it will replace Typora, but I bet it will be more useful for coding than writing.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></description></item></channel></rss>
+</div>]]></description></item></channel></rss>

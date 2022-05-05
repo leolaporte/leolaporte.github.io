@@ -8,7 +8,7 @@
 <p>In the early days of TWiT that meant a web site to provide you with a directory of shows and RSS feeds. Most people, once they found out about TWiT, went to iTunes to subscribe. And that was how 90% of our audience listened for years.</p>
 <h3 id="fast-forward-to-the-present">Fast Forward to the Present</h3>
 <p>Today the market is much more fragmented. iTunes downloads are down to about 16% of the total. Another 10% of our audience watches the live stream either on the web site or by plugging the URL into a video player like VLC. 30% download pre-recorded shows via the web site.  All the rest, nearly half, use apps to watch or listen on their mobile phones, tablets, Rokus, TiVOs, Samsung TVs, many other platforms.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> I consider this a success. We&rsquo;ve put TWiT in front of our audiences wherever they want it. But it means that our web site plays a very different role. And mobile apps are becoming increasingly important.</p>
-<p>As I began to appreciate this drastic change in how you watch and listen, I came to the realization that we needed to pay more attention to mobile while not ignoring the web. I, and many others, began to think of what we do as not broadcasting, or podcasting, but content as a service, or CaaS.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> That&rsquo;s a pretty high-falutin' term, but it does describe what we&rsquo;re trying to do.</p>
+<p>As I began to appreciate this drastic change in how you watch and listen, I came to the realization that we needed to pay more attention to mobile while not ignoring the web. I, and many others, began to think of what we do as not broadcasting, or podcasting, but content as a service, or CaaS.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> That&rsquo;s a pretty high-falutin&rsquo; term, but it does describe what we&rsquo;re trying to do.</p>
 <p>RSS feeds were a step in this direction, making it possible for readers and listeners to subscribe to a feed and get content in any manner they wanted. Instead of forcing you to read the news in a newspaper or on a web page, RSS feeds let you decide how you&rsquo;d read and in what form. But RSS doesn&rsquo;t go far enough. We are taking it a step farther and creating a full-blown API that can deliver our content, all the meta-data associated with it, and additional information about our hosts, sponsors, and events on demand to any app that wants it. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>Our new web site is just once consumer of this API. We&rsquo;re developing new apps on iOS, Android, and Windows that will also use the API.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> And we&rsquo;re inviting anyone who knows how to make a JSON call to create their own sites and apps. What we&rsquo;re unveiling today is much more than a new web site, it&rsquo;s a new way to deliver content that empowers my dream to give our audience the shows when they want, where they want, how they want without limits.</p>
 <h3 id="headless-drupal">Headless Drupal</h3>
@@ -27,52 +27,52 @@
 <p>The second reason people come to the site is to find content. These people already know about TWiT, but they want to quickly find and download a show, watch the live stream, or seach for information they heard on a show. The top navigation reflects those primary purposes: Live, Shows, Apps, Search and More&hellip; (where we stick everything else). We&rsquo;re using Apache Solr search and I think it&rsquo;s a major upgrade to our old search.</p>
 <p>The site is fully mobile responsive and looks great on every size screen. You can see for yourself by resizing the page and refreshing. We think the site might even look best on mobile - and that&rsquo;s good because that&rsquo;s how most people surf these days!</p>
 <h3 id="roll-the-credits">Roll the Credits</h3>
-<p>My deepest thanks to Four Kitchens' designer Jared John for the look and feel (and the lovely Verlag font up front). Kevin Lamping did the dust programming. Peter Sieg was the node.js lead. Any missing or broken features are not their fault - they&rsquo;re ours. We had a strict budget and weren&rsquo;t abe to add many of the cool features we all wanted. But we have an ongoing support contract with Four Kitchens and hope to add the most requested missing features over time. We have a backlog of well over 100 features we didn&rsquo;t have the time or money to implement in version 1.0 I also suspect we&rsquo;ll be ready to do a second phase with Four Kitchens when everybody recovers from this one. In about a year.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
-<p>The stuff you don&rsquo;t see is even more amazing. Four Kitchens' Drupal dev David Diers took the lead here and worked many long hours (and weekends, too) to get us to launch. Matt Grill played the part of the cavalry, swooping in to make sure SSL worked right, and backing David on getting the API up and running. The two of them worked miracles, and if you enjoy the API, buy them a beer the next time you&rsquo;re in Austin or San Diego (that&rsquo;s where Matt is). I want to buy them a whole brewery.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
+<p>My deepest thanks to Four Kitchens&rsquo; designer Jared John for the look and feel (and the lovely Verlag font up front). Kevin Lamping did the dust programming. Peter Sieg was the node.js lead. Any missing or broken features are not their fault - they&rsquo;re ours. We had a strict budget and weren&rsquo;t abe to add many of the cool features we all wanted. But we have an ongoing support contract with Four Kitchens and hope to add the most requested missing features over time. We have a backlog of well over 100 features we didn&rsquo;t have the time or money to implement in version 1.0 I also suspect we&rsquo;ll be ready to do a second phase with Four Kitchens when everybody recovers from this one. In about a year.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<p>The stuff you don&rsquo;t see is even more amazing. Four Kitchens&rsquo; Drupal dev David Diers took the lead here and worked many long hours (and weekends, too) to get us to launch. Matt Grill played the part of the cavalry, swooping in to make sure SSL worked right, and backing David on getting the API up and running. The two of them worked miracles, and if you enjoy the API, buy them a beer the next time you&rsquo;re in Austin or San Diego (that&rsquo;s where Matt is). I want to buy them a whole brewery.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
 <p>The entire process used the Agile methodology, and our project leaders, Paul Benjamin and Suzy Bates, kept the Jira log humming through 279 user stories and 730 points in nine sprints over the past six months. And if you know Agile you&rsquo;ll know what that means.</p>
 <p>On the TWiT Team, credit to Patrick Delahanty who re-coded our workflow engine, Elroy, to interface with Drupal so that our editors and producers could move their entire data entry workflow to the Drupal backend. And he did it in about a month. Patrick is the official first API user. I managed the project with help from our CEO Lisa Laporte, Engineering Manager, Bruce Chezem, and analyst Jeff Needles.</p>
 <p>The Drupal 7.0 backend is running on Acquia servers<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> using memcache and Varnish to speed things up. The web front end is running on Heroku. The API is documented at Apiary with key service from 3Scale. Node.js caching is provided by RedisLabs. Video and audio playback on the site is from JW Player. All TWiT shows and RSS feeds are stored and served by Cachefly.</p>
 <p>Many of the pictures you see on the site were shot by Jason Guy at JasonGuyPhotography.com.<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup></p>
-<p>I hope you like the new TWiT.tv 4.0. Please give me your feedback at <a href="mailto:leo@leoville.com">leo@leoville.com</a>. We&rsquo;ll fix the bugs as fast as we can, and adjust the interface to better suit your needs when we can afford it. Meanwhile, brush up on your RESTful API calls. I can&rsquo;t wait to see what you do with it.</p>
-<p>For more information about our developer program and the public API visit <a href="https://twit.tv/about/developer-program">https://twit.tv/about/developer-program</a></p>
-<section class="footnotes" role="doc-endnotes">
+<p>I hope you like the new TWiT.tv 4.0. Please give me your feedback at <a href="mailto:leo@leoville.com" rel="">leo@leoville.com</a>. We&rsquo;ll fix the bugs as fast as we can, and adjust the interface to better suit your needs when we can afford it. Meanwhile, brush up on your RESTful API calls. I can&rsquo;t wait to see what you do with it.</p>
+<p>For more information about our developer program and the public API visit <a href="https://twit.tv/about/developer-program" target="_blank" rel="noopener noreffer">https://twit.tv/about/developer-program</a></p>
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>Five years later this trend is even more pronounced. The most significant trend is towrd using an app to stream shows. Most people don&rsquo;t download at all anymore. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>Five years later this trend is even more pronounced. The most significant trend is towrd using an app to stream shows. Most people don&rsquo;t download at all anymore.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
-<p>OK that name didn&rsquo;t catch on, but conceptually that&rsquo;s still what&rsquo;s happening behind the scenes. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:2">
+<p>OK that name didn&rsquo;t catch on, but conceptually that&rsquo;s still what&rsquo;s happening behind the scenes.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p>This didn&rsquo;t happen, alas. RSS is still totally dominant. We use the API and a few other apps do, but an API is far harder to use than RSS, and doesn&rsquo;t really offer much more. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p>This didn&rsquo;t happen, alas. RSS is still totally dominant. We use the API and a few other apps do, but an API is far harder to use than RSS, and doesn&rsquo;t really offer much more.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:4" role="doc-endnote">
-<p>After spending $75,000 on these apps with a third-party developer we abandoned them as unusable. The development team attempted to use a cross-platform app framework. It didn&rsquo;t work. Today we would probably have created the site as a <a href="https://en.wikipedia.org/wiki/Progressive_web_application" target="_blank" rel="noopener noreffer">Progressive Web App</a> which would have eliminated the need for dedicated apps entirely. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:4">
+<p>After spending $75,000 on these apps with a third-party developer we abandoned them as unusable. The development team attempted to use a cross-platform app framework. It didn&rsquo;t work. Today we would probably have created the site as a <a href="https://en.wikipedia.org/wiki/Progressive_web_application" target="_blank" rel="noopener noreffer">Progressive Web App</a> which would have eliminated the need for dedicated apps entirely.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:5" role="doc-endnote">
-<p>And I&rsquo;m writing these notes in markdown with emacs. So I think I&rsquo;m actually going back in time. But sometimes the oldest things are the best! <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:5">
+<p>And I&rsquo;m writing these notes in markdown with emacs. So I think I&rsquo;m actually going back in time. But sometimes the oldest things are the best!&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:6" role="doc-endnote">
-<p>And, in fact, we&rsquo;ve changed the original, elegant, design considerably to reflect the needs of our marketing department. Honestly, I thought the original design was perfect, but over time we wanted to make it easier to discover our shows. The flexibility designed into the front end has definitely paid off. <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:6">
+<p>And, in fact, we&rsquo;ve changed the original, elegant, design considerably to reflect the needs of our marketing department. Honestly, I thought the original design was perfect, but over time we wanted to make it easier to discover our shows. The flexibility designed into the front end has definitely paid off.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:7" role="doc-endnote">
-<p>And there have been some fantastic apps using the API fully - like Patrick Hickey&rsquo;s <a href="https://twit.tv/posts/picks/ios-pick-mytwit" target="_blank" rel="noopener noreffer">MyTWiT</a> (no longer available). There&rsquo;s a list of current apps on the site, <a href="https://twit.tv/apps">https://twit.tv/apps</a>. I&rsquo;m not sure how many of them use the API - frankly RSS is much easier. <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:7">
+<p>And there have been some fantastic apps using the API fully - like Patrick Hickey&rsquo;s <a href="https://twit.tv/posts/picks/ios-pick-mytwit" target="_blank" rel="noopener noreffer">MyTWiT</a> (no longer available). There&rsquo;s a list of current apps on the site, <a href="https://twit.tv/apps" target="_blank" rel="noopener noreffer">https://twit.tv/apps</a>. I&rsquo;m not sure how many of them use the API - frankly RSS is much easier.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:8" role="doc-endnote">
-<p>As I mentioned, this is how the site <em>used</em> to look. It has changed considerably since then. <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:8">
+<p>As I mentioned, this is how the site <em>used</em> to look. It has changed considerably since then.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:9" role="doc-endnote">
-<p>And lots of credit to our in house engineer, Patrick Delahanty, who has maintained the site and overseen many changes to make it more usable. We didn&rsquo;t get to add a lot of those 100 features (web engineering is damn expensive) but I think we&rsquo;ve got a very useful and functional site. <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:9">
+<p>And lots of credit to our in house engineer, Patrick Delahanty, who has maintained the site and overseen many changes to make it more usable. We didn&rsquo;t get to add a lot of those 100 features (web engineering is damn expensive) but I think we&rsquo;ve got a very useful and functional site.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:10" role="doc-endnote">
-<p>We still use the Drupal backend, mostly unchanged, throughout our workflow. Once a show is edited it&rsquo;s published to the endpoints, including Cachefly and YouTube, by Drupal. Producers create the show notes in Drupal, and editors put relevant metadata into the Drupal backend where it propagates to everywhere else. <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:10">
+<p>We still use the Drupal backend, mostly unchanged, throughout our workflow. Once a show is edited it&rsquo;s published to the endpoints, including Cachefly and YouTube, by Drupal. Producers create the show notes in Drupal, and editors put relevant metadata into the Drupal backend where it propagates to everywhere else.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:11" role="doc-endnote">
-<p>Now on Blackmesh from <a href="https://www.contegix.com/" target="_blank" rel="noopener noreffer">Contegix</a> <a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:11">
+<p>Now on Blackmesh from <a href="https://www.contegix.com/" target="_blank" rel="noopener noreffer">Contegix</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:12" role="doc-endnote">
-<p>And since then, Michael O&rsquo;Donnell, Moises Luna, John &ldquo;jammerb&rdquo; Slanina, Masako Watanabe, and myself. <a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:12">
+<p>And since then, Michael O&rsquo;Donnell, Moises Luna, John &ldquo;jammerb&rdquo; Slanina, Masako Watanabe, and myself.&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></description></item></channel></rss>
+</div>]]></description></item></channel></rss>

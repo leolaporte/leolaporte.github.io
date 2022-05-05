@@ -38,6 +38,8 @@ If you'd like to encrypt your email to me, or verify a message from me, use my p
 
 My full bio is posted at [leo.fm/bio](https://leo.fm/bio).
 
+Identity verification for this and some other sites at: https://keyoxide.org/hkp/92C6B23216618FD65D354C3FB3000DC64567B47C
+
 **Contact Info:**
 
 **Email:** info@leo.fm

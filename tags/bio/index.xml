@@ -15,7 +15,7 @@ Leo Laporte has worked as an author, speaker, and broadcaster in New Haven, Mont
 <p>In May, 2008, Leo launched a live streaming video version of TWiT called <a href="http://live.twit.tv">TWiT Live</a> with 25 hours of original programming each week. 2.6 million people watched TWiT Live in its first month and the numbers continue to grow. TWiT broadcasts daily from a dedicated live-streaming video studio in Petaluma, California. Leo lives with his wife and TWiT CEO, Lisa Laporte, in Petaluma.</p>
 <ul>
 <li>
-<p>To request Leo as a speaker or for an interview on your show, email <a href="mailto:requests@twit.tv"><a href="mailto:requests@twit.tv">requests@twit.tv</a></a>. For information about pitching Leo on your product visit our <a href="/pr/" rel="">PR page</a>.</p>
+<p>To request Leo as a speaker or for an interview on your show, email <a href="mailto:requests@twit.tv"><a href="mailto:requests@twit.tv" rel="">requests@twit.tv</a></a>. For information about pitching Leo on your product visit our <a href="/pr/" rel="">PR page</a>.</p>
 </li>
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Leo_Laporte">Wikipedia </a>Profile (usually mostly accurate)</p>
@@ -59,10 +59,11 @@ Leo Laporte has worked as an author, speaker, and broadcaster in New Haven, Mont
 </li>
 </ul>
 <p>I use <a href="https://gnupg.org/" target="_blank" rel="noopener noreffer">GNU Privacy Guard (gpg)</a> or S/MIME signing for email whenever possible. Mail from me will be signed with my PGP key with the short ID 4567B47C or GlobalSign S/MIME certificate ID 582BC167. Email addresses are easily spoofed, but signatures can generally be trusted. If you receive an email from me that is not signed, reply requesting a signed version before trusting it.</p>
-<p>If you&rsquo;d like to encrypt your email to me, or verify a message from me, use my public PGP key: <a href="https://leo.ist/Leo%20Laporte%202018-2022%20%284567B47C%29%20%E2%80%93%20Public.asc" target="_blank" rel="noopener noreffer">Leo Laporte 2018-2022 (4567B47C)</a>. I create new keys every few years so be sure to use this key and not older versions. (This key is dated June 8, 2018 and identified as <a href="mailto:leo@leoville.com">leo@leoville.com</a>). It&rsquo;s probably easier (and even more secure) to use <a href="https://signal.org" target="_blank" rel="noopener noreffer">Signal</a> messenger (302-536-8948). My phone rejects calls from unknown numbers, but you can leave a text or voice message.</p>
+<p>If you&rsquo;d like to encrypt your email to me, or verify a message from me, use my public PGP key: <a href="https://leo.ist/Leo%20Laporte%202018-2022%20%284567B47C%29%20%E2%80%93%20Public.asc" target="_blank" rel="noopener noreffer">Leo Laporte 2018-2022 (4567B47C)</a>. I create new keys every few years so be sure to use this key and not older versions. (This key is dated June 8, 2018 and identified as <a href="mailto:leo@leoville.com" rel="">leo@leoville.com</a>). It&rsquo;s probably easier (and even more secure) to use <a href="https://signal.org" target="_blank" rel="noopener noreffer">Signal</a> messenger (302-536-8948). My phone rejects calls from unknown numbers, but you can leave a text or voice message.</p>
 <p>My full bio is posted at <a href="https://leo.fm/bio" target="_blank" rel="noopener noreffer">leo.fm/bio</a>.</p>
+<p>Identity verification for this and some other sites at: <a href="https://keyoxide.org/hkp/92C6B23216618FD65D354C3FB3000DC64567B47C" target="_blank" rel="noopener noreffer">https://keyoxide.org/hkp/92C6B23216618FD65D354C3FB3000DC64567B47C</a></p>
 <p><strong>Contact Info:</strong></p>
-<p><strong>Email:</strong> <a href="mailto:info@leo.fm">info@leo.fm</a></p>
+<p><strong>Email:</strong> <a href="mailto:info@leo.fm" rel="">info@leo.fm</a></p>
 <p><strong>Voice mail/SMS/Signal:</strong> +1 302-536-8948</p>
 <p><strong>Snail mail:</strong> Leo Laporte, 1351 Redwood Way, Ste. B, Petaluma, CA 94954</p>
 <hr>
@@ -73,7 +74,7 @@ Leo Laporte has worked as an author, speaker, and broadcaster in New Haven, Mont
 <p><a href="https://bitwarden.com" target="_blank" rel="noopener noreffer">BitWarden</a> is open-source, inexpensive, and very secure. It generates long, strong passwords and remembers them for you. <a href="https://lastpass.com" target="_blank" rel="noopener noreffer">Lastpass</a> and <a href="https://1password.com/" target="_blank" rel="noopener noreffer">1Password</a> are also excellent and work the same way.</p>
 <p>Two more important tips:</p>
 <ul>
-<li>If you use Gmail, follow Google’s security advice at <a href="https://google.com/security">https://google.com/security</a> – make sure to add a recovery phone number and email.</li>
+<li>If you use Gmail, follow Google’s security advice at <a href="https://google.com/security" target="_blank" rel="noopener noreffer">https://google.com/security</a> – make sure to add a recovery phone number and email.</li>
 <li>Turn-on two factor authentication wherever you can.</li>
 </ul>
 <p><strong>What programming language should I learn?</strong></p>
@@ -83,7 +84,7 @@ Leo Laporte has worked as an author, speaker, and broadcaster in New Haven, Mont
 <p><strong>Can I promote X with you?</strong></p>
 <p>I appreciate your sending along information about your product, service, web site, brilliant idea, or podcast proposal. I wish you all the best. I will read it and store it away for future reference. I don’t meet with vendors, so please don’t ask. TWiT.tv isn’t looking for any more podcasts either, but good luck with your show!</p>
 <p><strong>How do I buy ads on your shows?</strong></p>
-<p>Advertising Sales for TWiT is handled through Lisa Laporte, <a href="mailto:lisa@twit.tv">lisa@twit.tv</a>. Our minimum buy is $25,000. Thanks so much for your support!!</p>
+<p>Advertising Sales for TWiT is handled through Lisa Laporte, <a href="mailto:lisa@twit.tv" rel="">lisa@twit.tv</a>. Our minimum buy is $25,000. Thanks so much for your support!!</p>
 <p><strong>Please help me!</strong></p>
 <p>Thanks so much for writing. Unfortunately due to the volume of mail I get I just don’t have the ability to answer individual questions. I’ll keep your question in mind for use on the podcasts or radio show, though. You might search my radio show web site for an answer. I’ve also found that searching Google can be helpful. If you’d like to ask your question on my syndicated radio show call 1-88-88-ASK LEO from 11a-2p Pacific weekends. I appreciate hearing from you. I hope you understand why I can’t be of much help.</p>
 ]]></description></item></channel></rss>
